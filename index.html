@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    #flag {
+      width: 90px;
+      height: 70px;
+      padding-top: 15px;
+      position: relative;
+      color: white;
+      font-size: 11px;
+    }
+    #flag:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-bottom: 35px solid #fff;
+      border-left: 45px solid transparent;
+      border-right: 45px solid transparent;
+    }
+
+    .bg-lightPink{
+        background-color: #ff8e9a !important;
+    }
+    .text-lightPink{
+        color: #ff8e9a !important;
+    }
+    .nav-link:hover{
+        color: #fff !important;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-lightPink">
+        <div class="container-fluid py-1 px-4">
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse w-100" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link link-light active" aria-current="page" href="#"
+                >Home</a
+              >
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Archieves</a>
+              <a class="nav-link" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="flag" class="bg-lightPink"></div>
+      <div class="d-flex my-4 gap-5 flex-column flex-md-row align-items-center">
+        <div
+          class="images d-flex flex-wrap justify-content-md-start justify-content-center flex-row flex-md-column"
+        >
+          <img
+            src="./images/uifaces-cartoon-image (1).jpg"
+            alt=""
+            class="col-md-9 col-sm-3 col-12 rounded-circle my-2"
+          />
+          <img
+            src="./images/uifaces-cartoon-image (2).jpg"
+            alt=""
+            class="col-md-9 col-sm-3 col-4 rounded-circle my-2"
+          />
+          <img
+            src="./images/uifaces-cartoon-image.jpg"
+            alt=""
+            class="col-md-9 col-sm-3 col-4 rounded-circle my-2"
+          />
+          <img
+            src="./images/uifaces-cartoon-image (3).jpg"
+            alt=""
+            class="col-md-9 col-sm-3 col-4 rounded-circle my-2"
+          />
+        </div>
+        <div>
+          <p class="py-2 text-center text-md-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ut
+            minima illo quasi et quia, enim aperiam dolorum ex praesentium iste
+            itaque blanditiis ducimus necessitatibus velit odit fugiat
+            reprehenderit repellendus? Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Non sunt et magnam voluptates amet fuga blanditiis
+            rerum dolores. Laudantium, est. Molestiae dolorum nisi esse sapiente
+            voluptates necessitatibus? Veniam, veritatis voluptatum. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Possimus iste placeat,
+            quo dolorem doloremque incidunt corrupti molestiae fugit odio
+            asperiores magni esse illo numquam quidem at nesciunt repellendus
+            odit amet!
+          </p>
+          <div
+            class="d-flex flex-wrap justify-content-center justify-content-md-between"
+          >
+            <div class="card text-center col-12 col-md-3 my-4 my-4">
+              <img src="./images/1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="35"
+                  height="35"
+                  fill="#ff8e9a"
+                  class="bi bi-award"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702z"
+                  />
+                  <path
+                    d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"
+                  />
+                </svg>
+                <h5 class="card-title my-2">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-outline-primary mw-100 ">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card text-center col-12 col-md-3 my-4">
+              <img src="./images/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#ff8e9a"
+                  class="bi bi-balloon-heart"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063q.068.062.132.129.065-.067.132-.129c3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3 3 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398"
+                  />
+                </svg>
+                <h5 class="card-title my-2">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-outline-primary mw-100">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card text-center col-12 col-md-3 my-4">
+              <img src="./images/3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  fill="#ff8e9a"
+                  class="bi bi-suit-heart-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1"
+                  />
+                </svg>
+                <h5 class="card-title my-2">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-outline-primary mw-100">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="25"
+          height="25"
+          fill="#ff8e9a"
+          class="bi bi-triangle-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M7.022 1.566a1.13 1.13 0 0 1 1.96 0l6.857 11.667c.457.778-.092 1.767-.98 1.767H1.144c-.889 0-1.437-.99-.98-1.767z"
+          />
+        </svg>
+      </div>
+      <hr class="m-0" />
+      <div
+        class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 my-4"
+      >
+        <span class="fs-2 fw-bold text-lightPink">Lorem</span>
+        <div class="text-center text-md-start">
+          ipsum dolor sit amet consectetur adipisicing elit. At possimus dicta
+          sint quod minus ipsam culpa eveniet, voluptatum, in sequi nobis, illo
+          maxime et unde deleniti accusamus explicabo! Odit, atque? ipsum dolor
+          sit amet, consectetur adipisicing elit. Repellat non nulla ducimus
+          cumque eos ratione dolore dolorum labore adipisci sapiente, eveniet
+          est, iure aspernatur nisi dicta optio quo sunt itaque.
+        </div>
+      </div>
+      <div
+        class="d-flex flex-column flex-md-row justify-content-center justify-content-md-between align-items-center"
+      >
+        <video controls class="col-12 col-md-6 m-4">
+          <source src="./images/video.mp4" type="video/mp4" />
+        </video>
+        <div class="ms-3 col-12 col-md-5 text-center text-md-start">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. ducimus
+          excepturi dolores, quis amet. Optio repellat consequatur perspiciatis
+          et praesentium quibusdam sequi. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Modi quae, expedita dicta, repudiandae
+          alias tempore odit rem, deleniti numquam beatae in voluptas aspernatur
+          reiciendis temporibus maxime et placeat inventore aliquam!
+        </div>
+      </div>
+      <footer class="mt-4">
+        <div
+          class="d-flex justify-content-center flex-column flex-md-row align-items-center justify-content-md-around bg-lightPink text-light p-4"
+        >
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-telephone"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+              />
+            </svg>
+            Contact us
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-info-circle"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+              />
+              <path
+                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+              />
+            </svg>
+            Information
+          </div>
+          <div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-patch-question"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M8.05 9.6c.336 0 .504-.24.554-.627.04-.534.198-.815.847-1.26.673-.475 1.049-1.09 1.049-1.986 0-1.325-.92-2.227-2.262-2.227-1.02 0-1.792.492-2.1 1.29A1.7 1.7 0 0 0 6 5.48c0 .393.203.64.545.64.272 0 .455-.147.564-.51.158-.592.525-.915 1.074-.915.61 0 1.03.446 1.03 1.084 0 .563-.208.885-.822 1.325-.619.433-.926.914-.926 1.64v.111c0 .428.208.745.585.745"
+              />
+              <path
+                d="m10.273 2.513-.921-.944.715-.698.622.637.89-.011a2.89 2.89 0 0 1 2.924 2.924l-.01.89.636.622a2.89 2.89 0 0 1 0 4.134l-.637.622.011.89a2.89 2.89 0 0 1-2.924 2.924l-.89-.01-.622.636a2.89 2.89 0 0 1-4.134 0l-.622-.637-.89.011a2.89 2.89 0 0 1-2.924-2.924l.01-.89-.636-.622a2.89 2.89 0 0 1 0-4.134l.637-.622-.011-.89a2.89 2.89 0 0 1 2.924-2.924l.89.01.622-.636a2.89 2.89 0 0 1 4.134 0l-.715.698a1.89 1.89 0 0 0-2.704 0l-.92.944-1.32-.016a1.89 1.89 0 0 0-1.911 1.912l.016 1.318-.944.921a1.89 1.89 0 0 0 0 2.704l.944.92-.016 1.32a1.89 1.89 0 0 0 1.912 1.911l1.318-.016.921.944a1.89 1.89 0 0 0 2.704 0l.92-.944 1.32.016a1.89 1.89 0 0 0 1.911-1.912l-.016-1.318.944-.921a1.89 1.89 0 0 0 0-2.704l-.944-.92.016-1.32a1.89 1.89 0 0 0-1.912-1.911z"
+              />
+              <path d="M7.001 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0" />
+            </svg>
+            About us
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
